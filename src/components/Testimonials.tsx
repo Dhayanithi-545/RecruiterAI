@@ -49,7 +49,7 @@ export default function Testimonials() {
         </h2>
 
         {/* THE THREADED TIMELINE */}
-        <div className="relative max-w-5xl mx-auto p-4 sm:p-8 md:p-12 lg:p-20">
+        <div className="relative w-full mx-auto p-4 sm:p-8 md:p-12 lg:p-20">
 
           {/* Vertical Thread Path */}
           <div className="absolute left-1/2 top-0 bottom-0 w-[2px] bg-slate-200 -translate-x-1/2 hidden md:block">

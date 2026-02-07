@@ -82,18 +82,18 @@ export default function Hero() {
         <div className="flex flex-col lg:flex-row items-center gap-8 sm:gap-12 md:gap-16 lg:gap-24">
 
           {/* Left Column: Content */}
-          <div className="flex-1 max-w-2xl">
+          <div className="flex-1 w-full">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-slate-900 mb-4 sm:mb-6 tracking-tight" style={{ fontFamily: 'Outfit' }}>
+              <h1 className="text-3xl pt-14 sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-slate-900 mb-4 sm:mb-6 tracking-tight" style={{ fontFamily: 'Outfit' }}>
                 Better Hiring <br />
                 <span className="text-blue-600 italic">Starts Here.</span>
               </h1>
 
-              <p className="text-base sm:text-lg md:text-xl text-slate-800 mb-8 sm:mb-10 leading-relaxed font-medium max-w-lg">
+              <p className="text-base sm:text-lg md:text-xl text-slate-800 mb-8 sm:mb-10 leading-relaxed font-medium w-full">
                 Stop manual filtering. Let AI weave the threads between talent and your open roles.
                 Streamline your entire recruitment process.
               </p>
@@ -131,7 +131,7 @@ export default function Hero() {
 
           {/* Right Column: Carousel */}
 
-          <div className="flex-1 w-full max-w-xl lg:max-w-none relative">
+          <div className="flex-1 w-full relative">
             <div className="bg-white border-2 border-slate-900 p-2 rounded-[2rem] shadow-[8px_8px_0px_0px_rgba(15,23,42,1)] hover:translate-x-[-4px] hover:translate-y-[-4px] hover:shadow-[12px_12px_0px_0px_rgba(15,23,42,1)] transition-all duration-300 overflow-hidden min-h-[350px] sm:min-h-[450px] md:min-h-[500px] lg:min-h-[600px] flex items-center justify-center">
               <AnimatePresence mode="wait">
                 {carouselItems[currentSlide].type === 'image' ? (
@@ -162,7 +162,7 @@ export default function Hero() {
                     className="w-full h-full flex items-center justify-center p-6"
                   >
                     {carouselItems[currentSlide].data && (
-                      <div className="w-full max-w-2xl h-[280px] sm:h-[350px] md:h-[400px] lg:h-[450px]">
+                      <div className="w-full h-[280px] sm:h-[350px] md:h-[400px] lg:h-[450px]">
                         <DestinationCard {...carouselItems[currentSlide].data} />
                       </div>
                     )}

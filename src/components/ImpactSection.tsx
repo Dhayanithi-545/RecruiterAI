@@ -96,13 +96,13 @@ export default function ImpactSection() {
                             />
                         </span>
                     </h2>
-                    <p className="text-xl text-slate-600 max-w-2xl mx-auto" style={{ fontFamily: 'Inter' }}>
+                    <p className="text-xl text-slate-600 w-full mx-auto" style={{ fontFamily: 'Inter' }}>
                         See the tangible results our AI brings to your recruitment process
                     </p>
                 </motion.div>
 
                 {/* Main Content - Split into two sections */}
-                <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 max-w-7xl mx-auto items-start relative">
+                <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 w-full mx-auto items-start relative">
 
                     {/* LEFT SIDE - Main circular flow visualization */}
                     <div className="relative lg:col-span-3 px-10">

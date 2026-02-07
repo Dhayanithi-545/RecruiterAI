@@ -33,7 +33,7 @@ export default function Footer() {
                             </Link>
 
                             <p
-                                className="text-slate-300 text-base sm:text-lg mb-6 sm:mb-8 leading-relaxed max-w-md font-medium"
+                                className="text-slate-300 text-base sm:text-lg mb-6 sm:mb-8 leading-relaxed w-full font-medium"
                                 style={{ fontFamily: "Inter" }}
                             >
                                 Revolutionizing recruitment with intelligent automation.

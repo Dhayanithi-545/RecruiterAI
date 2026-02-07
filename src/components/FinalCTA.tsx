@@ -11,7 +11,7 @@ export default function FinalCTA() {
                     Ready to Modernize Your Hiring?
                 </h2>
 
-                <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-2xl mx-auto mb-10 sm:mb-12 font-['Inter'] font-medium">
+                <p className="text-base sm:text-lg md:text-xl text-slate-600 w-full mx-auto mb-10 sm:mb-12 font-['Inter'] font-medium">
                     Join leading companies using RecruiterAI to find better talent, faster.
                     Start your free 14-day trial today.
                 </p>
