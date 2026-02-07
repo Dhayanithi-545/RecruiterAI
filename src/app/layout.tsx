@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "RecruiterAI",
   description: "Revolutionizing recruitment with intelligent automation. Hire faster, smarter, and fairer.",
   icons: {
-    icon: logo.src,
+    icon: "/logo.png",
   },
 };
 

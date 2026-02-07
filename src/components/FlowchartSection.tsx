@@ -17,7 +17,7 @@ export default function FlowchartSection() {
 
             <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 relative z-10">
                 {/* Header */}
-                <div className="max-w-4xl mx-auto text-center mb-16">
+                <div className="w-full mx-auto text-center mb-16">
                     <motion.h2
                         className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 mb-4 sm:mb-6 tracking-tight"
                         style={{ fontFamily: 'Outfit' }}
@@ -62,7 +62,7 @@ export default function FlowchartSection() {
                 </div>
 
                 {/* Flowcharts */}
-                <div className="max-w-6xl mx-auto overflow-x-auto">
+                <div className="w-full mx-auto overflow-x-auto">
                     {activeTab === 0 && <ScreeningFlowchart />}
                     {activeTab === 1 && <InterviewFlowchart />}
                     {activeTab === 2 && <PipelineFlowchart />}
@@ -70,7 +70,7 @@ export default function FlowchartSection() {
 
                 {/* Benefit highlight */}
                 <motion.div
-                    className="mt-16 max-w-2xl mx-auto text-center"
+                    className="mt-16 w-full mx-auto text-center"
                     initial={{ opacity: 0, scale: 0.9 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}

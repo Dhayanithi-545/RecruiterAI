@@ -32,7 +32,7 @@ export default function LogoSlider() {
             <div className="absolute top-10 right-20 w-72 h-72 bg-sky-200 rounded-full blur-3xl opacity-20" />
             <div className="absolute bottom-10 left-20 w-72 h-72 bg-blue-200 rounded-full blur-3xl opacity-20" />
 
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
+            <div className="w-full mx-auto px-4 sm:px-6 relative z-10">
                 {/* Heading */}
                 <motion.div
                     className="text-center mb-16"
@@ -61,7 +61,7 @@ export default function LogoSlider() {
                         </span>
                     </h2>
 
-                    <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto" style={{ fontFamily: 'Inter' }}>
+                    <p className="text-base sm:text-lg text-slate-600 w-full mx-auto" style={{ fontFamily: 'Inter' }}>
                         Seamlessly integrate with leading job platforms and reach top talent across multiple channels
                     </p>
                 </motion.div>
@@ -97,7 +97,7 @@ export default function LogoSlider() {
 
                 {/* Bottom stats/trust indicators */}
                 <motion.div
-                    className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mt-12 sm:mt-16 max-w-5xl mx-auto"
+                    className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mt-12 sm:mt-16 w-full mx-auto"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -132,7 +132,7 @@ export default function LogoSlider() {
                 }
 
                 .animate-scroll {
-                    animation: scroll 40s linear infinite;
+                    animation: scroll 13s linear infinite;
                 }
 
                 .animate-scroll:hover {
