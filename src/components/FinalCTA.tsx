@@ -4,7 +4,7 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 
 export default function FinalCTA() {
     return (
-        <section id="get-started" className="py-16 sm:py-20 md:py-24 bg-white border-t-2 border-slate-900">
+        <section id="get-started" className=" sm:py-20 md:py-24 bg-white border-t-2 border-slate-900">
             <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 text-center">
 
                 <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 sm:mb-8 font-['Outfit'] text-slate-900 tracking-tighter">
