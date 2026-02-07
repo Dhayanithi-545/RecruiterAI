@@ -17,10 +17,16 @@ export default function FinalCTA() {
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-                    <button className="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white bg-blue-600 rounded-full border-2 border-slate-900 shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_rgba(15,23,42,1)] transition-all">
+                    <button
+                        onClick={() => window.open('https://calendly.com/dhayanithianandan/30min', '_blank')}
+                        className="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white bg-blue-600 rounded-full border-2 border-slate-900 shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_rgba(15,23,42,1)] transition-all"
+                    >
                         Start Free Trial <ArrowRight className="w-5 h-5 ml-2" />
                     </button>
-                    <button className="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-slate-900 bg-white border-2 border-slate-900 rounded-full shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_rgba(15,23,42,1)] transition-all">
+                    <button
+                        onClick={() => window.open('https://calendly.com/dhayanithianandan/30min', '_blank')}
+                        className="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-slate-900 bg-white border-2 border-slate-900 rounded-full shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_rgba(15,23,42,1)] transition-all"
+                    >
                         Schedule Demo
                     </button>
                 </div>
