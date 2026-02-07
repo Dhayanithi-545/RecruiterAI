@@ -99,11 +99,20 @@ export default function Hero() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                <button className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-bold text-white transition-all duration-300 bg-blue-600 rounded-full border-2 border-slate-900 shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_rgba(15,23,42,1)] focus:outline-none">
+                <button
+                  onClick={() => window.open('https://calendly.com/dhayanithianandan/30min', '_blank')}
+                  className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-bold text-white transition-all duration-300 bg-blue-600 rounded-full border-2 border-slate-900 shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_rgba(15,23,42,1)] focus:outline-none"
+                >
                   Request a Demo
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </button>
-                <button className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-bold text-slate-900 transition-all duration-300 bg-white border-2 border-slate-900 rounded-full shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_rgba(15,23,42,1)] focus:outline-none">
+                <button
+                  onClick={() => {
+                    const section = document.getElementById('how-it-works');
+                    section?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                  className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-bold text-slate-900 transition-all duration-300 bg-white border-2 border-slate-900 rounded-full shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_rgba(15,23,42,1)] focus:outline-none"
+                >
                   View Features
                 </button>
               </div>
