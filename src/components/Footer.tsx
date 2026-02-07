@@ -3,7 +3,7 @@ import { Twitter, Linkedin, Facebook, Mail } from "lucide-react";
 
 export default function Footer() {
     return (
-        <footer className="relative">
+        <footer className="relative pt-30">
 
             {/* Footer Background Image */}
             <div className="absolute inset-x-0 bottom-0 z-0 min-w-full">
